@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex,nofollow">
-    <meta name="googlebot" content="noindex">
     <title>Well Viet Nhat Co., Ltd.</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
@@ -26,7 +24,7 @@
 </head>
 <body class="font-sans">
     <!-- ヘッダーセクション -->
-    <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50 p-4">
+    <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50 p-4 max-h-16 2xl:px-96">
         <div class="container mx-auto flex justify-between items-center">
             <!-- ロゴ -->
             <div class="flex-shrink-0">
@@ -115,12 +113,12 @@
     </div>
 
     <!-- メインコンテンツ -->
-    <main class="pt-16">
+    <main class="pt-16 2xl:px-96">
         <!-- ヒーローセクション -->
-        <section class="relative pb-16">
+        <section class="relative">
             <div class="container mx-auto">
                 <div class="relative  overflow-hidden shadow-md">
-                    <img src="https://dummyimage.com/800x1200/6a9fb5/ffffff" alt="ヒーローイメージ" class="w-full h-auto md:max-h-[880px] object-cover">
+                    <img src="https://dummyimage.com/800x1200/6a9fb5/ffffff" alt="ヒーローイメージ" class="w-full h-auto md:max-h-[520px] object-cover">
                     <div class="absolute inset-0 from-black/70 to-transparent"></div>
                     <div class="absolute bottom-0 left-0 right-0 p-6 md:p-12">
                         <h1 class="text-3xl md:text-5xl font-bold mb-4 text-white">日本の介護技術・教育をベトナムへ</h1>
@@ -134,15 +132,15 @@
         </section>
 
         <!-- 主要サービス紹介セクション -->
-        <section id="services" class="py-16 bg-white">
-            <div class="container mx-auto px-4">
-                <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center">主要サービス</h2>
+        <section id="services" class="pt-8 pb-16 bg-white">
+            <div class="container mx-auto">
+                <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">主要サービス</h2>
 
                 <!-- サービスカード一覧 -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-8 2xl:gap-x-6">
                     <!-- CarePro カード -->
                     <div class="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer service-card relative" data-target="careProContent">
-                        <img src="https://dummyimage.com/600x600/3b7a77/ffffff" alt="CarePro" class="w-full h-80 object-cover">
+                        <img src="https://dummyimage.com/600x600/3b7a77/ffffff" alt="CarePro" class="w-full  object-cover">
                         <div class="overlay-content">
                             <h3 class="text-xl font-semibold mb-2">CarePro</h3>
                             <p class="text-gray-200">介護・リハビリ eLearning</p>
@@ -156,7 +154,7 @@
 
                     <!-- 介護トレーニングセンター カード -->
                     <div class="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer service-card relative" data-target="trainingContent">
-                        <img src="https://dummyimage.com/600x600/3b7a77/ffffff" alt="介護トレーニングセンター" class="w-full h-80 object-cover">
+                        <img src="https://dummyimage.com/600x600/3b7a77/ffffff" alt="介護トレーニングセンター" class="w-full  object-cover">
                         <div class="overlay-content">
                             <h3 class="text-xl font-semibold mb-2">介護トレーニングセンター</h3>
                             <p class="text-gray-200">設立支援サービス</p>
@@ -170,7 +168,7 @@
 
                     <!-- CareBiz Health カード -->
                     <div class="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer service-card relative" data-target="carebizContent">
-                        <img src="https://dummyimage.com/600x600/3b7a77/ffffff" alt="CareBiz Health" class="w-full h-80 object-cover">
+                        <img src="https://dummyimage.com/600x600/3b7a77/ffffff" alt="CareBiz Health" class="w-full  object-cover">
                         <div class="overlay-content">
                             <h3 class="text-xl font-semibold mb-2">CareBiz Health</h3>
                             <p class="text-gray-200">介護IoTソリューション</p>
@@ -184,7 +182,7 @@
 
                     <!-- 介護コンサルテーション カード -->
                     <div class="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer service-card relative" data-target="consultContent">
-                        <img src="https://dummyimage.com/600x600/3b7a77/ffffff" alt="介護コンサルテーション" class="w-full h-80 object-cover">
+                        <img src="https://dummyimage.com/600x600/3b7a77/ffffff" alt="介護コンサルテーション" class="w-full  object-cover">
                         <div class="overlay-content">
                             <h3 class="text-xl font-semibold mb-2">介護コンサルテーション</h3>
                             <p class="text-gray-200">専門知識の提供</p>
@@ -357,7 +355,7 @@
         <!-- 外部コンテンツセクション -->
         <section id="external" class="py-16 bg-gray-100">
             <div class="container mx-auto px-4">
-                <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center">メディア</h2>
+                <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">メディア</h2>
 
                 <!-- 動画セクション -->
                 <div class="mb-12">
@@ -429,7 +427,7 @@
         <!-- お問い合わせ・案内セクション -->
         <section id="contact" class="py-16 bg-white">
             <div class="container mx-auto px-4">
-                <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center">お問い合わせ</h2>
+                <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">お問い合わせ</h2>
 
                 <div class="max-w-5xl mx-auto">
                     <!-- 連絡先情報 -->
@@ -497,7 +495,7 @@
         <!-- 募集情報セクション -->
         <section id="jobs" class="py-16 bg-gray-100">
             <div class="container mx-auto px-4">
-                <h2 class="text-2xl md:text-4xl font-bold mb-8 text-center">募集情報</h2>
+                <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">募集情報</h2>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                     <!-- IoTデバイスの販売代理店募集 -->
@@ -599,10 +597,15 @@
     </footer>
 
     <!-- スクロールアップボタン -->
-    <button id="scrollToTop" class="fixed bottom-8 right-8 bg-teal-500 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center hidden">
+    <button id="scrollToTop" class="fixed bottom-8 right-8 bg-teal-500 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center cursor-pointer hover:opacity-50 hidden">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
         </svg>
+    </button>
+
+    <!-- Zaloボタン -->
+    <button id="zaloLink" class="fixed bottom-32 right-8  text-white w-18 h-18 rounded-full shadow-lg flex items-center justify-center cursor-pointer hover:opacity-50">
+        <img src="icon_zalo.svg">
     </button>
 
     <!-- スクリプト -->
@@ -634,10 +637,13 @@
         // スクロールアップボタン
         window.addEventListener('scroll', function() {
             const scrollUpButton = document.getElementById('scrollToTop');
+            // const zaloButton = document.getElementById('zaloLink');
             if (window.scrollY > 100) {
                 scrollUpButton.classList.remove('hidden');
+                // zaloButton.classList.remove('hidden');
             } else {
                 scrollUpButton.classList.add('hidden');
+                // zaloButton.classList.add('hidden');
             }
         });
 
